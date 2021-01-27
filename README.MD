@@ -24,7 +24,7 @@ This has a Modern Styling.
 ### Inline Forms
 * Inline form elements has to wrapped inside a div having class name as **'form-inline-group'**
 <br> <br>
-<img src="./images/inline-form.jpg" />  
+<img src="./images/inline-form.JPG" />  
 
 ### Buttons
 * Buttons have a class of **'btn'**
@@ -38,15 +38,15 @@ This has a Modern Styling.
     * **'btn-danger'** 
     * **'btn-warning'** 
 <br> <br>
-<img src="./images/button.jpg" /> 
+<img src="./images/button.JPG" /> 
 
 * To change sizeof button add one these class along with **'btn'**
     * **'btn-sm'**
     * **'btn-lg'**
 <br> <br>
-<img src="./images/button-size.jpg" /> 
+<img src="./images/button-size.JPG" /> 
 
-### Sample Code
+### Sample Code and Output
 ```html
 <h1 >Message Form</h1>
 <form class="form" >
@@ -55,10 +55,11 @@ This has a Modern Styling.
     </div>
 
     <div class="form-group">
-        <input type="text" placeholder="Type a Message" class="input-2" required>
+        <input class="input-2" type="text" placeholder="Type a Message" required>
     </div>
     <button class="btn" type="submit" >Send</button>
 </form>
 ```
+<img src="./images/sample-form.JPG" /> 
 
 
