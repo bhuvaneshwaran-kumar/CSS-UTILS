@@ -1,0 +1,64 @@
+:root{
+    --textDanger: #d9534f;
+    --textSuccess: #5cb85c;
+    --textMuted: rgb(139, 139, 139);
+    --textWarning: #f0ad4e;
+}
+
+/* ------ Font-Weight --------- */
+.fw-1{ font-weight: 300; }
+.fw-2{ font-weight: 400; }
+.fw-3{ font-weight: 500; }
+.fw-4{ font-weight: 600; }
+.fw-5{ font-weight: 700; }
+
+/* ------ Text-Italic ----------*/
+.text-italic{ font-style: italic; }
+
+
+/* ------ Text-Alignment -------- */
+.text-center{ text-align: center;}
+.text-left{ text-align: left;}
+.text-right{ text-align: right;}
+
+
+.text-justify {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.text-pre-wrap{
+  white-space: pre-wrap;	
+}
+
+/* ------ Text-Colors --------- */
+.text-success{ color: var(--textSuccess);}
+.text-danger{ color: var(--textDanger);}
+.text-muted{ color: var(--textMuted);}
+.text-warning{ color: var(--textWarning);}
+.text-white{ color: white;}
+.text-black{ color: black;}
+.text-light{ color: #f7f7f7;}
+.text-dark{ color: #292b2c;}
+
+
+/* ------ Font-Size ------------ */
+.fs-1{font-size: 0.8rem;}
+.fs-2{font-size: 1rem;}
+.fs-3{font-size: 1.2rem;}
+.fs-4{font-size: 1.5rem;}
+.fs-5{font-size: 2rem;}
+
+
+/* ------ Text-Decorations --------- */
+.text-decoration-none{ text-decoration: none;}
+.text-decoration-line-through{ text-decoration:line-through;}
+.text-decoration-underline{ text-decoration: underline;}
+
+
+/* ----- Text Casing ----------- */
+.text-upper { text-transform: uppercase;}
+.text-lower { text-transform: lowercase;}
+.text-capitalize { text-transform: capitalize;}
+
+.user-select-none{ user-select: none;}
