@@ -1,5 +1,5 @@
 ## CSS Forms
-* CDN: 
+* CDN: https://gitcdn.link/repo/bhuvaneshwaran-kumar/CSS-UTILS/master/form/form.css
 ### Note
 * All the input fields, labels, buttons should we wrapped inside div with a class **'form-group'** or **'form-inline-group'** based on the usecase
 * forms should given a class of **'form'**
